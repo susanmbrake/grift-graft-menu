@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grift & Graft - Artisanal Corruption</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Crimson+Text:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, #2c1810 0%, #1a0f08 100%);
+            color: #f4f1e8;
+            font-family: 'Crimson Text', serif;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+            border-bottom: 3px solid #d4af37;
+            padding-bottom: 30px;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5em;
+            font-weight: 700;
+            color: #d4af37;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+
+        .tagline {
+            font-size: 1.2em;
+            color: #c9a876;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+
+        .subtitle {
+            font-size: 0.9em;
+            color: #8b7355;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .menu-section {
+            margin-bottom: 50px;
+            background: rgba(255,255,255,0.03);
+            border-radius: 15px;
+            padding: 30px;
+            border: 1px solid rgba(212,175,55,0.2);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+        }
+
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2em;
+            color: #d4af37;
+            margin-bottom: 25px;
+            text-align: center;
+            border-bottom: 1px solid rgba(212,175,55,0.3);
+            padding-bottom: 15px;
+        }
+
+        .menu-item {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: rgba(255,255,255,0.02);
+            border-radius: 10px;
+            border-left: 4px solid #d4af37;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .menu-item:hover {
+            background: rgba(255,255,255,0.08);
+            transform: translateX(8px);
+            box-shadow: 0 12px 40px rgba(212,175,55,0.15);
+            border-left-width: 6px;
+        }
+
+        .item-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4em;
+            font-weight: 600;
+            color: #f4f1e8;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .price {
+            color: #d4af37;
+            font-size: 0.9em;
+        }
+
+        .description {
+            color: #c9a876;
+            font-size: 1em;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 1px solid rgba(212,175,55,0.3);
+            color: #8b7355;
+            font-style: italic;
+        }
+
+        @media (max-width: 600px) {
+            .logo {
+                font-size: 2.5em;
+            }
+            
+            .container {
+                padding: 20px 15px;
+            }
+            
+            .menu-section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="logo">GRIFT & GRAFT</h1>
+            <p class="tagline">Artisanal Corruption • Handcrafted Scandals • Farm-to-Tabloid</p>
+            <p class="subtitle">A curated selection of the finest government malfeasance, carefully sourced and expertly prepared for your consumption</p>
+        </header>
+
+        <section class="menu-section">
+            <h2 class="section-title">Appetizers</h2>
+            
+            <a href="/explainers/trump-coin" class="menu-item">
+                <div class="item-name">
+                    <span>Trump Truth Social Coin Fondue</span>
+                    <span class="price">$47M</span>
+                </div>
+                <div class="description">A rich, melting pot of cryptocurrency confusion served with a side of regulatory blind spots. Watch the money disappear before your eyes!</div>
+            </a>
+
+            <a href="/explainers/qatar-flight" class="menu-item">
+                <div class="item-name">
+                    <span>Qatar Airways Mystery Flight</span>
+                    <span class="price">Priceless</span>
+                </div>
+                <div class="description">A delicate arrangement of diplomatic immunity served on a bed of undisclosed passengers. Bon voyage, transparency!</div>
+            </a>
+        </section>
+
+        <section class="menu-section">
+            <h2 class="section-title">Main Courses</h2>
+            
+            <a href="/explainers/bannon-yacht" class="menu-item">
+                <div class="item-name">
+                    <span>Bannon's "Build the Wall" Yacht Special</span>
+                    <span class="price">$1M+</span>
+                </div>
+                <div class="description">Tender donations slow-cooked in false promises, garnished with luxury yacht payments. A true sea-to-table experience of misappropriated funds.</div>
+            </a>
+
+            <a href="/explainers/scotus-ethics" class="menu-item">
+                <div class="item-name">
+                    <span>Supreme Court Ethics Platter</span>
+                    <span class="price">Justice Denied</span>
+                </div>
+                <div class="description">An assortment of undisclosed gifts, luxury vacations, and real estate transactions. Served family-style with a complete absence of oversight.</div>
+            </a>
+        </section>
+
+        <section class="menu-section">
+            <h2 class="section-title">Sides</h2>
+            
+            <a href="/explainers/santos-resume" class="menu-item">
+                <div class="item-name">
+                    <span>Santos Résumé Reduction</span>
+                    <span class="price">100% Fiction</span>
+                </div>
+                <div class="description">A theatrical presentation of career fabrication, expertly crafted to fool even the most discerning voter palate.</div>
+            </a>
+        </section>
+
+        <section class="menu-section">
+            <h2 class="section-title">Desserts</h2>
+            
+            <a href="/explainers/incompetence-parfait" class="menu-item">
+                <div class="item-name">
+                    <span>Incompetence Parfait</span>
+                    <span class="price">Layers Deep</span>
+                </div>
+                <div class="description">Sweet layers of bungled policy, topped with a dollop of administrative chaos. A perfect ending to any scandal feast.</div>
+            </a>
+
+            <a href="/explainers/hypocrisy-souffle" class="menu-item">
+                <div class="item-name">
+                    <span>Hypocrisy Soufflé</span>
+                    <span class="price">Hot Air</span>
+                </div>
+                <div class="description">A delicate contradiction that rises beautifully before collapsing under the weight of previous statements. Best served immediately.</div>
+            </a>
+
+            <a href="/explainers/shamelessness-sundae" class="menu-item">
+                <div class="item-name">
+                    <span>Shamelessness Sundae</span>
+                    <span class="price">No Limits</span>
+                </div>
+                <div class="description">Our signature dessert: unlimited scoops of brazen behavior with hot fudge denial sauce and a cherry of victim-playing on top.</div>
+            </a>
+        </section>
+
+        <footer class="footer">
+            <p>Menu items rotate seasonally based on the news cycle • All corruption locally sourced • No gratuity necessary - they're already taking enough</p>
+            <p style="margin-top: 20px; font-size: 0.8em;">Share this menu: #GriftAndGraft #ArtisanalCorruption</p>
+        </footer>
+    </div>
+</body>
+</html>
